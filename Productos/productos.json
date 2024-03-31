@@ -5,9 +5,9 @@
         "precio": 7070,
         "descripcion_corta": "",
         "descripcion_larga": "Los Lentes oftálmicos Gucci GG0027O para mujer cuentan con un diseño marco completo redondo que les da un estilo muy femenino y atractivo, para que expreses tu personalidad. Fabricado con acetato color havana super resistentes y cómodos de usar para altas jornadas del día. Recomendado para rostros cuadrados y forma de diamante. Sé parte de este modelo y complementa tu look con Gucci.",
-        "img1": "../Imgs/L1-1.png",
-        "img2": "../Imgs/L1-2.png",
-        "img3": "../Imgs/L1-3.png",
+        "img1": "./Imgs/L1-1.png",
+        "img2": "./Imgs/L1-2.png",
+        "img3": "./Imgs/L1-3.png",
         "categoria": "Oftálmico"
     },
     {
@@ -16,9 +16,9 @@
         "precio": 2777,
         "descripcion_corta": "",
         "descripcion_larga": "Los lentes oftálmicos JOAN son inspirados en Joan Crawford tienen un marco completo en forma cuadrada oversize fabricado En acetato negro. Las varillas están hechas de metal en color dorado con diseño circular garigoleado. Sus terminales son de rayas en blanco y negro. Recomendado para rostros ovalados y forma de diamante. ",
-        "img1": "../Imgs/L2-1.png",
-        "img2": "../Imgs/L2-2.png",
-        "img3": "../Imgs/L2-3.png",
+        "img1": "./Imgs/L2-1.png",
+        "img2": "./Imgs/L2-2.png",
+        "img3": "./Imgs/L2-3.png",
         "categoria": "Oftálmico"
     },
     {
@@ -27,9 +27,9 @@
         "precio": 3730,
         "descripcion_corta": "",
         "descripcion_larga": "Los Lentes Oftálmicos Ray-Ban RB7047O cuentan con un diseño rectangular que les da un estilo clásico para que expreses tu personalidad. Fabricado en acetato, este armazón es muy cómodo, resistente y duradero. El armazón Ray-Ban oftálmico viene en color negro mate que le da un toque de modernidad a lo clásico.",
-        "img1": "../Imgs/L3-1.png",
-        "img2": "../Imgs/L3-2.png",
-        "img3": "../Imgs/L3-3.png",
+        "img1": "./Imgs/L3-1.png",
+        "img2": "./Imgs/L3-2.png",
+        "img3": "./Imgs/L3-3.png",
         "categoria": "Oftálmico"
       },
       {
@@ -38,9 +38,9 @@
         "precio": 770,
         "descripcion_corta": "",
         "descripcion_larga": "Los Lentes Oftálmicos SEEN SNFF10 tienen un diseño de forma cuadrada ideal para caras redondas y ovaladas, para quienes buscan un accesorio juvenil y femenino. Gracias a que están fabricados en acetato son muy durables.",
-        "img1": "../Imgs/L4-1.png",
-        "img2": "../Imgs/L4-2.png",
-        "img3": "../Imgs/L4-3.png",
+        "img1": "./Imgs/L4-1.png",
+        "img2": "./Imgs/L4-2.png",
+        "img3": "./Imgs/L4-3.png",
         "categoria": "Oftálmico"
       },
       {
@@ -49,9 +49,9 @@
         "precio": 500,
         "descripcion_corta": "",
         "descripcion_larga": "Los lentes de contacto Lunare están fabricados con la tecnología Tri-Kolor, que gracias a sus tres capas de color ofrece un aspecto más natural a tus ojos y la mayor comodidad.",
-        "img1": "../Imgs/L5-1.png",
-        "img2": "../Imgs/L5-2.png",
-        "img3": "../Imgs/L5-3.png",
+        "img1": "./Imgs/L5-1.png",
+        "img2": "./Imgs/L5-2.png",
+        "img3": "./Imgs/L5-3.png",
         "categoria": "Contacto"
       },
       {
@@ -60,9 +60,9 @@
         "precio": 1148,
         "descripcion_corta": "",
         "descripcion_larga": "Los lentes de contacto MyDay para astigmatismo ofrecen una solución cómoda y efectiva para corregir la visión en personas con astigmatismo. Estos lentes están diseñados para proporcionar una visión clara y nítida, adaptándose a la curvatura específica del ojo y corrigiendo las irregularidades que causan el astigmatismo.",
-        "img1": "../Imgs/L6-1.png",
-        "img2": "../Imgs/L6-2.png",
-        "img3": "../Imgs/L6-3.png",
+        "img1": "./Imgs/L6-1.png",
+        "img2": "./Imgs/L6-2.png",
+        "img3": "./Imgs/L6-3.png",
         "categoria": "Contacto"
       },
       {
@@ -71,9 +71,9 @@
         "precio": 3529,
         "descripcion_corta": "",
         "descripcion_larga": "Usa la energía de los ojos brillantes y el ambiente jovial del mundo de los festivales con el nuevo estilo esencial veraniego - que trae el JA-JO. Hemos añadido más impacto a las atemporales gafas redondas de metal con una explosión de color para lucir un estilo elegante y contemporáneo.",
-        "img1": "../Imgs/L7-1.png",
-        "img2": "../Imgs/L7-2.png",
-        "img3": "../Imgs/L7-3.png",
+        "img1": "./Imgs/L7-1.png",
+        "img2": "./Imgs/L7-2.png",
+        "img3": "./Imgs/L7-3.png",
         "categoria": "Sol"
       },
       {
@@ -82,9 +82,9 @@
         "precio": 2408,
         "descripcion_corta": "",
         "descripcion_larga": "Los Lentes Solares Martha Debayle Janis cuentan con un diseño redondo marco completo. Está fabricado en acero color negro. Las lentes son de color gris, transmiten la luz de manera uniforme y mantienen los colores naturales, son apropiados para manejar por la ciudad o carretera. Incluye protección contra los rayos UV. Recomendado para rostros Cuadrados y forma de diamante.",
-        "img1": "../Imgs/L8-1.png",
-        "img2": "../Imgs/L8-2.png",
-        "img3": "../Imgs/L8-3.png",
+        "img1": "./Imgs/L8-1.png",
+        "img2": "./Imgs/L8-2.png",
+        "img3": "./Imgs/L8-3.png",
         "categoria": "Sol"
       },
       {
@@ -93,9 +93,9 @@
         "precio": 4240,
         "descripcion_corta": "",
         "descripcion_larga": "Los Lentes Solares Versace VE4307 cuentan con un diseño cuadrado completo para hombres de rostro redondo, ovalado y en forma de corazón que te da un estilo clásico para que expreses tu personalidad. Fabricado en acetato, este armazón es muy resistente y duradero.",
-        "img1": "../Imgs/L9-1.png",
-        "img2": "../Imgs/L9-2.png",
-        "img3": "../Imgs/L9-3.png",
+        "img1": "./Imgs/L9-1.png",
+        "img2": "./Imgs/L9-2.png",
+        "img3": "./Imgs/L9-3.png",
         "categoria": "Sol"
       },
       {
@@ -104,9 +104,9 @@
         "precio": 1150,
         "descripcion_corta": "",
         "descripcion_larga": "Los lentes tóricos Biomedics® de CooperVision son los lentes de contacto de hidrogel para quienes necesitan corregir astigmatismo y desean un programa de reemplazo mensual. Estos lentes de contacto tóricos se caracterizan por ofrecer una visión clara y nítida, además, gracias a sus bordes biselados y a su rendimiento extremadamente estable, los lentes tóricos Biomedics ofrecen visión nítida y confort duradero.",
-        "img1": "../Imgs/L10-1.png",
-        "img2": "../Imgs/L10-2.png",
-        "img3": "../Imgs/L0-3.png",
+        "img1": "./Imgs/L10-1.png",
+        "img2": "./Imgs/L10-2.png",
+        "img3": "./Imgs/L0-3.png",
         "categoria": "Contacto"
       }
 ]
