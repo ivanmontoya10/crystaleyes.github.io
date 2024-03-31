@@ -16,7 +16,7 @@ const verDetalle = (productoJSON) => {
 
 document.addEventListener("DOMContentLoaded", () => {
     // Cargar el archivo JSON de productos
-    fetch('http://localhost/landing_crystal_eyes/Productos/productos.json', {
+    fetch('productos.json', {
         method: 'GET',
         credentials: 'include' // Habilitar el envío de credenciales
     })
