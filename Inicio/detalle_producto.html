@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="o.css">
+    <title>Lente Oftálmico Gucci GG0027O Havana</title>
+</head>
+<header>
+    <img class="logo" src="logo.png" alt="Logo">
+    <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+    <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+        <ul class="nav-list">
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Productos">Productos</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+            <li><a href="#Perfil">Perfil</a></li>
+            <li><a href="#Carrito">Carrito</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div id="detalle-producto"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const detalleProductoDiv = document.getElementById('detalle-producto');
+
+            // Supongamos que el producto con id 1 ya está cargado en detalle_producto.json
+            fetch('http://localhost/landing_crystal_eyes/Productos/productos.json')
+                .then(response => response.json())
+                .then(data => {
+                    const productoId1 = data.find(producto => producto.id === 1);
+
+                    // Verificar si el producto encontrado es el de id 1
+                    if (productoId1) {
+                        detalleProductoDiv.classList.add('productoID1');
+                        detalleProductoDiv.innerHTML = `
+                        <div id="detalle-producto" class="productoID1">
+    <div class="imagen-grande">
+        <img src="${productoId1.img1}" alt="Imagen del producto">
+    </div>
+    <div class="imagenes">
+        <img src="${productoId1.img2}" alt="Imagen del producto">
+        <img src="${productoId1.img3}" alt="Imagen del producto">
+    </div>
+    <div class="space">
+    </div>
+    <div class="info-producto">
+        <h2>${productoId1.nombre}</h2>
+        <p class="precio">$${productoId1.precio}</p>
+        <p>${productoId1.descripcion_larga}</p>
+        <button class="btn-comprar" disabled>Comprar</button>
+    </div>
+</div>
+
+`;
+
+                    } else {
+                        // Mostrar un mensaje si el producto no es el de id 1
+                        detalleProductoDiv.innerHTML = `<p>No se encontró información para este producto.</p>`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error al cargar los datos:', error);
+                    detalleProductoDiv.innerHTML = `<p>Error al cargar los datos del producto.</p>`;
+                });
+        });
+    </script>
+     <script src="script.js"></script>
+</body>
+
+</html>
