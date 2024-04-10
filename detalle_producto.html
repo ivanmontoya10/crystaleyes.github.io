@@ -36,42 +36,84 @@
 </header>
 
 <body>
-    <div id="detalle-producto"></div>
+    <div id="name" class="name"></div>
+    <div class="container desktop-view">
+        <div class="img_container">
+            <img src="./Imgs/L1-1.png" alt="" class="main_img">
+        </div>
+        <div id="detalle-productoN" class="detalle-productoN"></div>
+        
+    </div>
+    <div class="thumbnail_container">
+        <img class="thumbnail active" src="./Imgs/L1-1.png" alt="">
+        <img class="thumbnail" src="./Imgs/L1-2.png" alt="">
+        <img class="thumbnail" src="./Imgs/L1-3.png" alt="">
+    </div>
+    <div id="detalle-productoR" class="detalle-productoR"></div>
+
+    <br><br><br><br><br><!--Aquí va a ir las reseñas, footer, etc.-->
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const detalleProductoDiv = document.getElementById('detalle-producto');
+            const main_img = document.querySelector('.main_img')
+            const thumbnails = document.querySelectorAll('.thumbnail')
+
+
+            thumbnails.forEach(thumb => {
+                thumb.addEventListener('click', function(){
+                    const active = document.querySelector('.active')
+                    active.classList.remove('active')
+                    thumb.classList.add('active')
+                    main_img.src = thumb.src
+                })
+            })
+        
+            const detalleProductoNDiv = document.getElementById('detalle-productoN');
+            const detalleProductoRDiv = document.getElementById('detalle-productoR');
+            const nameDiv = document.getElementById('name');
 
             // Supongamos que el producto con id 1 ya está cargado en detalle_producto.json
-            fetch('productos.json')
+            fetch('http://localhost/landing_crystal_eyes/productos.json')
                 .then(response => response.json())
                 .then(data => {
                     const productoId1 = data.find(producto => producto.id === 1);
 
                     // Verificar si el producto encontrado es el de id 1
                     if (productoId1) {
-                        detalleProductoDiv.classList.add('productoID1');
-                        detalleProductoDiv.innerHTML = `
+                        //Nombre en responsive
+                        nameDiv.classList.add('productoID1');
+                        nameDiv.innerHTML = `
+                        <h2>${productoId1.nombre}</h2>       
+                        `;
+
+                        //Card producto pantalla web
+                        detalleProductoNDiv.classList.add('productoID1');
+                        detalleProductoNDiv.innerHTML = `
                         <div id="detalle-producto" class="productoID1">
-    <div class="imagen-grande">
-        <img src="${productoId1.img1}" alt="Imagen del producto">
-    </div>
-    <div class="imagenes">
-        <img src="${productoId1.img2}" alt="Imagen del producto">
-        <img src="${productoId1.img3}" alt="Imagen del producto">
-    </div>
-    <div class="space">
-    </div>
-    <div class="info-producto">
-        <h2>${productoId1.nombre}</h2>
-        <p class="precio">$${productoId1.precio}</p>
-        <p>${productoId1.descripcion_larga}</p>
-        <button class="btn-comprar" disabled>Comprar</button>
-    </div>
-</div>
+                            <div class="info-producto">
+                                <h2>${productoId1.nombre}</h2>
+                                <p class="precio">$${productoId1.precio}</p>
+                                <p class="descripcion">${productoId1.descripcion_larga}</p><br>
+                                <button class="btn-comprar">Comprar</button><br><br>
+                                <button class="btn-comprar">Agregar a lista de deseos</button>
+                            </div>
+                        </div>
+                        `;
 
-`;
+                        //Card producto responsive
+                        detalleProductoRDiv.classList.add('productoID1');
+                        detalleProductoRDiv.innerHTML = `
+                        <div id="detalle-producto" class="productoID1">
+                            <div class="info-producto">
+                                <p class="precio">$${productoId1.precio}</p>
+                                <p>${productoId1.descripcion_larga}</p><br>
+                                <button class="btn-comprar">Comprar</button><br><br>
+                                <button class="btn-comprar">Agregar a lista de deseos</button>
+                            </div>
+                        </div>
+                        `;
 
+                       
                     } else {
                         // Mostrar un mensaje si el producto no es el de id 1
                         detalleProductoDiv.innerHTML = `<p>No se encontró información para este producto.</p>`;
@@ -81,9 +123,12 @@
                     console.error('Error al cargar los datos:', error);
                     detalleProductoDiv.innerHTML = `<p>Error al cargar los datos del producto.</p>`;
                 });
+                
         });
+
+        
     </script>
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

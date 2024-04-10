@@ -73,7 +73,6 @@ header {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
- 
   max-width: 100%; /* Ancho máximo del botón */
   min-width: 100px;
 }
@@ -88,57 +87,107 @@ header {
   background-color: #0056b3;
 }
 
-
 /*Detalle de producto*/
 .productoID1 {
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 20px;
 }
 
 .productoID1 .info-producto {
-  flex: 1; /* Ocupa todo el espacio disponible a la derecha de la imagen */
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .productoID1 .info-producto h2,
 .productoID1 .info-producto p {
-  margin-bottom: 10px; /* Espacio entre elementos de texto */
+  text-align: justify;
+  line-height: 1.5;
 }
 
-.productoID1 .btn-comprar {
-  padding: 10px 20px; /* Espacio interno del botón */
-  background-color: blue; /* Color de fondo del botón */
-  border: none; /* Sin borde */
-  cursor: pointer; /* Cursor de apuntar */
-  color: white;
-  font-weight: bold;
+.btn-comprar{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  height: 14%;
+  font-size: 20px;
 }
 
-.productoID1 img {
-  max-width: 300px; /* Tamaño grande para la imagen */
-  margin-right: 20px; /* Espacio a la derecha de la imagen */
-  display: flex;
+.btn-comprar:hover {
+  background-color: #0056b3;
 }
 
-.productoID1 .imagenes {
-  display: inline-block; /* Mostrar las imágenes en línea */
-  margin-top: 20px; /* Espacio superior entre la imagen grande y las imágenes pequeñas */
-  max-width: 300px; /* Tamaño grande para la imagen */
-  margin-right: 20px; /* Espacio a la derecha de la imagen */
-  max-width: 100px; /* Tamaño máximo para las imágenes pequeñas */
-  margin: 0 10px; /* Espacio entre las imágenes */
-}
-
-.productoID1 p{
+.descripcion{
   text-align: justify;
 }
 
-.space{
-  margin-left: 400px;
+.detalle-productoN {
+  width: 40%;
+  padding: 20px;
+}
+
+/*IMGS*/
+.container .img_container {
+  width: 60%;
+  height: 482px;
+  margin-bottom: 20px; 
+  padding: 20px;
+}
+
+.container.desktop-view {
+  display: flex;
+}
+
+.container .img_container .main_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+  object-fit: cover;
+}
+
+.thumbnail_container {
+  height: 80px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.thumbnail_container .thumbnail {
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  opacity: .7;
+  transition: .3s;
+}
+
+.thumbnail_container .thumbnail:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity:  1 !important;
+  box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
 }
 
 .abrir-menu,
 .cerrar-menu {
+  display: none;
+}
+
+.name{
+  display: none;
+}
+
+.detalle-productoR{
   display: none;
 }
 
@@ -163,7 +212,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: calc(50% - 20px);
+    width: calc(100% - 10px);
   }
 
   .producto-card p:last-child {
@@ -203,4 +252,80 @@ header {
   .nav-list li a {
     color: #ecececec;
   }
+
+  .productoID1 {
+    padding: 5px;
+    align-items: flex-start; /* Cambiar la alineación a arriba */
+  }
+
+  .productoID1 .info-producto h2,
+  .productoID1 .info-producto p {
+    font-size: 14px;
+  }
+
+  .productoID1 .btn-comprar {
+    font-size: 12px;
+  }
+
+  .detalle-productoN{
+    display: none;
+  }
+
+  .detalle-productoR{
+    display: block;
+  }
+
+  .name{
+    display: block;
+  }
+
+/*IMGS*/
+.container .img_container {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 20px; 
+  padding: 20px;  
+}
+
+.container.desktop-view {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 20px; 
+  padding: 20px;
+}
+
+.container .img_container .main_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+  object-fit: cover;
+}
+
+.thumbnail_container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.thumbnail_container .thumbnail {
+  width: 150px;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  opacity: .7;
+  transition: .3s;
+}
+
+.thumbnail_container .thumbnail:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity:  1 !important;
+  box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+}
 }
