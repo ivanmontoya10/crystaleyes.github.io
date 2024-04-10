@@ -73,7 +73,7 @@
             const nameDiv = document.getElementById('name');
 
             // Supongamos que el producto con id 1 ya está cargado en detalle_producto.json
-            fetch('http://localhost/landing_crystal_eyes/productos.json')
+            fetch('productos.json')
                 .then(response => response.json())
                 .then(data => {
                     const productoId1 = data.find(producto => producto.id === 1);
