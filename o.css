@@ -149,7 +149,8 @@ header {
   height: 100%;
   border-radius: 5px;
   box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 
 .thumbnail_container {
@@ -334,4 +335,16 @@ header {
   opacity:  1 !important;
   box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
 }
+}
+
+@media screen and (max-width: 430px) {
+  .thumbnail_container .thumbnail {
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: contain;
+    object-position: center;
+    opacity: .7;
+    transition: .3s;
+  }
 }
