@@ -192,6 +192,79 @@ header {
   display: none;
 }
 
+/*FOOTER*/
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.redes-sociales {
+  margin-top: 10px;
+}
+
+.redes-sociales a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.links{
+  text-decoration: none;
+}
+
+/*COOKIES*/
+.wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-width: 300px;
+  z-index: 1000;
+}
+
+.wrapper div {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.data p{
+  text-align: justify;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button.accept {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.button.decline {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 550px) {
 
   .abrir-menu,
@@ -334,6 +407,10 @@ header {
 .active {
   opacity:  1 !important;
   box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+}
+
+footer {
+  padding: 10px;
 }
 }
 
