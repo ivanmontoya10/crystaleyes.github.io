@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         productoDiv.classList.add('producto-card');
                         productoDiv.innerHTML = `
                             <div >
-                                <img src="${producto.img1}">
+                                <img src="${producto.img1}" alt="${producto.nombre}" title="${producto.nombre}">
                                 <h2>${producto.nombre}</h2>
                                 <p class="precio">$${producto.precio}</p>
                                 <p>${producto.descripcion_larga}</p>
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         
                         productoDiv.innerHTML = `
                             <div>
-                                <img src="${producto.img1}">
+                                <img src="${producto.img1}" alt="${producto.nombre}" title="${producto.nombre}">
                                 <h2>${producto.nombre}</h2>
                                 <p class="precio">$${producto.precio}</p>
                                 <p>${producto.descripcion_larga}</p>

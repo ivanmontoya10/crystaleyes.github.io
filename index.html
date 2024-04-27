@@ -11,11 +11,18 @@
     <meta name="publisher" content="Crystal Eyes Studios">
     <meta name="description"
         content="En crystal eyes encontrarás gran variedad de lentes, tanto para garantizar una mejor vista, comodidad, y estética">
-    <title>CRYSTAL EYES - TIENDA OFICIAL</title>
+    <title>CRYSTAL EYES - TIENDA WEB OFICIAL</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
     <link rel="canonical" href="https://ivanmontoya10.github.io/crystaleyes.github.io/">
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="o.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="o.css">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBQZB52VXX"></script>
     <script>
@@ -25,9 +32,10 @@
 
         gtag('config', 'G-XBQZB52VXX');
     </script>
+
 </head>
 <header>
-    <img class="logo" src="logo.png" alt="Logo">
+    <img class="logo" src="logo.png" alt="Logo" alt="Logo Crystal Eyes" title="Logo Crystal Eyes">
     <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
     <nav class="nav" id="nav">
         <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
@@ -45,50 +53,64 @@
 </header>
 
 <body>
-    <div id="productos" class="productos">Hola</div>
     <script src="script.js"></script>
 
-    <!-- <div class="wrapper" id="wrapper">
-        <div>
-            <i class="bx bx-cookie"></i>
-            <h2>Consentimiento de cookies</h2>
-        </div>
-        <div class="data">
-            <p>Este sitio web utiliza cookies para ayudarle a tener una experiencia de navegación superior y más
-                relevante en el sitio web.
-                <a href="#"> Leer más...</a>
-            </p>
-        </div>
-        <div class="buttons">
-            <button class="button" id="acceptBtn">Aceptar</button>
-            <button class="button" id="declineBtn">Rechazar</button>
-        </div>
-    </div> -->
-
-    <div class="modal fade" id="wrapper" tabindex="-1" role="dialog" aria-labelledby="wrapperTitle"
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="wrapperTitle"><i class="bx bx-cookie"></i>Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Políticas de Crystal Eyes</h5>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <strong><i class="bi bi-shield-lock"></i> Políticas de privacidad</strong>
+                    <p style="text-align: justify;">Respetamos tu privacidad y nos comprometemos a proteger tus datos
+                        personales.
+                        Recopilamos información solo cuando es necesaria para proporcionar nuestros servicios
+                        y mejorar tu experiencia en el sitio. No compartimos tus datos con terceros sin tu
+                        consentimiento. Puedes acceder, corregir o eliminar tus datos personales en cualquier
+                        momento. Para más detalles sobre cómo manejamos tus datos, consulta nuestra política
+                        completa de privacidad o contáctanos para obtener más información.</p>
+                    <hr>
+                    <strong><i class="bi bi-credit-card"></i> Políticas de pagos</strong>
+                    <p style="text-align: justify;">Utilizamos métodos seguros para procesar tus pagos y proteger tus
+                        datos financieros.
+                        No almacenamos información de tarjetas de crédito o débito en nuestros servidores.
+                        Toda la información de pago se maneja de forma segura y cumpliendo con las normativas
+                        de seguridad. Para más detalles sobre cómo procesamos los pagos, consulta nuestra
+                        política completa de pagos o contáctanos para obtener más información.</p>
+                    <hr>
+                    <strong><i class="bx bx-cookie"></i> Políticas de cookies</strong>
+                    <p style="text-align: justify;">Nuestro sitio web utiliza cookies para mejorar tu experiencia de
+                        usuario al recordar
+                        tus preferencias y acciones, como el inicio de sesión y las configuraciones de idioma.
+                        También utilizamos cookies para analizar cómo los visitantes interactúan con el sitio y
+                        para personalizar el contenido. Puedes controlar y gestionar las cookies en tu dispositivo,
+                        pero ten en cuenta que desactivarlas puede afectar la funcionalidad del sitio. Si deseas
+                        más información, por favor revisa nuestra política completa de cookies o contáctanos para
+                        cualquier pregunta adicional.</p>
+                    <hr>
+                    <strong><i class="bi bi-arrow-return-left"></i> Políticas de devoluciones y reembolsos</strong>
+                    <p style="text-align: justify;">Ofrecemos una política de devoluciones para garantizar tu
+                        satisfacción. Puedes devolver
+                        productos en un plazo de 12 días después de la compra, siempre que estén
+                        en su estado original y con el recibo de compra. Nos comprometemos a procesar los
+                        reembolsos dentro de cualquier día hábil después de recibir la devolución. Para más detalles
+                        sobre cómo devolver un producto, consulta nuestra política completa de devoluciones o
+                        contáctanos para obtener asistencia.</p>
+                    <hr>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+                    <button type="button" class="btn btn-success">Aceptar</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        document.getElementById('acceptBtn').addEventListener('click', function () {
-            document.getElementById('wrapper').classList.add('hidden');
+        $(document).ready(function () {
+            $('#exampleModalLong').modal('show');
         });
     </script>
 </body>
