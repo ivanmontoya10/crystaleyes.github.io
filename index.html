@@ -103,7 +103,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
-                    <button type="button" class="btn btn-success">Aceptar</button>
+                    <button type="button" class="btn btn-success" id="aceptarBtn">Aceptar</button>
                 </div>
             </div>
         </div>
@@ -112,6 +112,10 @@
     <script>
         $(document).ready(function () {
             $('#exampleModalLong').modal('show');
+
+            $('#aceptarBtn').click(function () {
+                $('#exampleModalLong').modal('hide');
+            });
         });
     </script>
 </body>
