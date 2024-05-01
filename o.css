@@ -425,3 +425,77 @@ footer {
     transition: .3s;
   }
 }
+
+/*REVIEWS*/
+#comentarios {
+  margin-top: 50px;
+  margin: 20px;
+
+}
+
+.reviews{
+text-align: center;
+font-size: 32px;
+}
+
+.añadir-comentarios{
+font-size: 28px;
+}
+
+#formulario-comentario {
+  margin-bottom: 20px;
+}
+
+#formulario-comentario div {
+  margin-bottom: 15px;
+}
+
+#formulario-comentario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#formulario-comentario input[type="text"],
+#formulario-comentario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#formulario-comentario textarea {
+  height: 100px;
+}
+
+#formulario-comentario button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formulario-comentario button:hover {
+  background-color: #0056b3;
+}
+
+#lista-comentarios {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.comentario {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.comentario h3 {
+  margin-bottom: 10px;
+}
+
+.comentario p {
+  margin-bottom: 10px;
+}
