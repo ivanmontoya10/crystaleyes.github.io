@@ -251,7 +251,7 @@
         }
 
         function cargarComentariosDesdeJSON() {
-            fetch('http://localhost/crystaleyes.github.io/jsons/reseñas.json')
+            fetch('/crystaleyes.github.io/jsons/reseñas.json')
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(function (comentario) {
