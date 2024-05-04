@@ -11,7 +11,7 @@ const verDetalle = (productoId) => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('/jsons/productos.json', {
+    fetch('/crystaleyes.github.io/jsons/productos.json', {
         method: 'GET',
         credentials: 'include'
     })
