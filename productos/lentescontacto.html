@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../imgs/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYSTAL EYES</title>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="producto.css">
+</head>
+<header>
+    <img class="logo" src="/landing_crystal_eyes/imgs/logo.png" alt="Logo">
+    <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+    <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+        <ul class="nav-list">
+            <li><a href="/landing_crystal_eyes/index.html">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#">Productos</a>
+                <ul class="dropdown-menu">
+                    <li><a href="/landing_crystal_eyes/productos/todos.html">Todos los productos</a></li>
+                    <li><a href="/landing_crystal_eyes/productos/oftalmico.html">Lentes oftálmicos</a></li>
+                    <li><a href="/landing_crystal_eyes/productos/lentescontacto.html">Lentes de contacto</a></li>
+                    <li><a href="/landing_crystal_eyes/productos/lentesol.html">Lentes de sol</a></li>
+                </ul>
+            </li>
+            <li><a href="/landing_crystal_eyes/contacto/contacto.html">Contacto</a></li>
+            <div class="search-form-container">
+                <form class="search-form" action="search.php" method="GET">
+                    <input type="text" name="query" placeholder="Buscar...">
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+            <li><a href="/landing_crystal_eyes/perfil/perfil.html"><i class="bi bi-person-square" style="font-size: 24px"></i></a></li>
+            <li><a href="/landing_crystal_eyes/listadeseos/listadeseos.html"><i class="bi bi-box2-heart" style="font-size: 24px"></i></a></li>
+            <li><a href="/landing_crystal_eyes/carrito/carrito.html"><i class="bi bi-cart3" style="font-size: 24px"></i></a></li>
+            <li><a href="/landing_crystal_eyes/loginregister/login.html"><button class="icon-button login-button"><i
+                            class="bi bi-person-fill"></i><span class="login-text">Iniciar
+                            sesión</span></button></a></li>
+            <li><a href="/landing_crystal_eyes/loginregister/register.html"><button class="icon-button register-button"><i
+                            class="bi bi-person-plus-fill"></i><span
+                            class="register-text">Registrarse</span></button></a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h1 style="padding: 30px;">Categoría: Lentes de contacto</h1>
+    <div id="productos" class="productos"></div>
+    <script src="lentescontacto.js"></script>
+</body>
+
+<footer>
+    <div class="acerca-de">
+        <h3>Acerca de nosotros</h3>
+        <p>Somos Crystal Eyes, una empresa apasionada por la visión y el estilo. En Crystal Eyes, entendemos la
+            importancia de unos buenos lentes no solo para corregir la visión, sino también para realzar tu estilo
+            único.</p>
+    </div>
+    <div class="redes-sociales">
+        <i class='bx bxl-facebook'></i>
+        <a class="links" href="https://www.facebook.com/profile.php?id=61558525312465&mibextid=kFxxJD">Facebook</a>
+        <i class='bx bxl-instagram'></i>
+        <a class="links" href="https://www.instagram.com/landing_crystal_eyesoficial/">Instagram</a>
+    </div>
+    <div class="acerca-de">
+        <p>©2024 Crystal Eyes. Todos los derechos reservados.</p>
+    </div>
+    <script src="../index.js"></script>
+</footer>
+
+</html>

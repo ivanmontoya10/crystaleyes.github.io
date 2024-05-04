@@ -1,0 +1,46 @@
+.faq-section {
+    width: 50%; /* Ajuste el ancho para hacerlo más estrecho */
+    max-width: 600px; /* Añade un máximo de ancho */
+    min-width: 300px; /* Añade un mínimo de ancho */
+    margin: 40px auto; /* Aumenta el margen superior e inferior, y auto para centrar */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.faq-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.faq {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    max-height: 250px; /* Altura máxima para cada FAQ */
+    overflow-y: auto; /* Desplazamiento vertical para contenido que excede la altura máxima */
+}
+
+.faq h3 {
+    color: #444;
+}
+
+.faq p {
+    padding: 5px 0 10px 0;
+    color: #666;
+}
+
+.social-media-contact h3, .social-media-contact p {
+    text-align: center;
+}
+
+.social-media-contact p a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.social-media-contact p a:hover {
+    text-decoration: underline;
+}

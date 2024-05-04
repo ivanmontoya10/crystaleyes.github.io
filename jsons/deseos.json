@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nombre": "Lente Oftálmico Gucci GG0027O Havana",
+        "precio": 7070,
+        "descripcion_corta": "",
+        "descripcion_larga": "Los Lentes oftálmicos Gucci GG0027O para mujer cuentan con un diseño marco completo redondo que les da un estilo muy femenino y atractivo, para que expreses tu personalidad. Fabricado con acetato color havana super resistentes y cómodos de usar para altas jornadas del día. Recomendado para rostros cuadrados y forma de diamante. Sé parte de este modelo y complementa tu look con Gucci.",
+        "img1": "../Imgs/L1-1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Lente Oftálmico Martha Debayle JOAN Negro",
+        "precio": 2777,
+        "descripcion_corta": "",
+        "descripcion_larga": "Los lentes oftálmicos JOAN son inspirados en Joan Crawford tienen un marco completo en forma cuadrada oversize fabricado En acetato negro. Las varillas están hechas de metal en color dorado con diseño circular garigoleado. Sus terminales son de rayas en blanco y negro. Recomendado para rostros ovalados y forma de diamante. ",
+        "img1": "../Imgs/L2-1.png"
+    },
+      {
+        "id": 4,
+        "nombre": "Lente Oftálmico Seen SNFF10 Vino",
+        "precio": 770,
+        "descripcion_corta": "",
+        "descripcion_larga": "Los Lentes Oftálmicos SEEN SNFF10 tienen un diseño de forma cuadrada ideal para caras redondas y ovaladas, para quienes buscan un accesorio juvenil y femenino. Gracias a que están fabricados en acetato son muy durables.",
+        "img1": "../Imgs/L4-1.png"
+      },
+      {
+        "id": 5,
+        "nombre": "Lentes de Contacto Lunare cosmético Neutro",
+        "precio": 500,
+        "descripcion_corta": "",
+        "descripcion_larga": "Los lentes de contacto Lunare están fabricados con la tecnología Tri-Kolor, que gracias a sus tres capas de color ofrece un aspecto más natural a tus ojos y la mayor comodidad.",
+        "img1": "../Imgs/L5-1.png"
+      }
+]

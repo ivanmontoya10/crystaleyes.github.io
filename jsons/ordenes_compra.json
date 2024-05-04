@@ -1,0 +1,92 @@
+[
+  {
+    "numero": 12345,
+    "fecha": "28 de Abril, 2024",
+    "productos": [
+      {
+        "nombre": "Lentes de sol",
+        "modelo": "Modelo X"
+      },
+      {
+        "nombre": "Lentes oftálmicos",
+        "modelo": "Modelo Y"
+      }
+    ],
+    "total": 200.00
+  },
+  {
+    "numero": 12346,
+    "fecha": "29 de Abril, 2024",
+    "productos": [
+      {
+        "nombre": "Lentes de sol",
+        "modelo": "Modelo Z"
+      },
+      {
+        "nombre": "Lentes de contacto",
+        "modelo": "Modelo W"
+      }
+    ],
+    "total": 250.00
+  },
+  {
+    "numero": 12347,
+    "fecha": "30 de Abril, 2024",
+    "productos": [
+      {
+        "nombre": "Lentes de sol",
+        "modelo": "Modelo A"
+      },
+      {
+        "nombre": "Lentes de sol",
+        "modelo": "Modelo B"
+      }
+    ],
+    "total": 180.00
+  },
+  {
+    "numero": 12348,
+    "fecha": "1 de Mayo, 2024",
+    "productos": [
+      {
+        "nombre": "Lentes de contacto",
+        "modelo": "Modelo C"
+      },
+      {
+        "nombre": "Lentes de sol",
+        "modelo": "Modelo D"
+      }
+    ],
+    "total": 220.00
+  },
+  {
+    "numero": 12349,
+    "fecha": "2 de Mayo, 2024",
+    "productos": [
+      {
+        "nombre": "Lentes oftálmicos",
+        "modelo": "Modelo E"
+      },
+      {
+        "nombre": "Lentes de sol",
+        "modelo": "Modelo F"
+      }
+    ],
+    "total": 190.00
+  },
+  {
+    "numero": 12350,
+    "fecha": "3 de Mayo, 2024",
+    "productos": [
+      {
+        "nombre": "Lentes de contacto",
+        "modelo": "Modelo G"
+      },
+      {
+        "nombre": "Lentes oftálmicos",
+        "modelo": "Modelo H"
+      }
+    ],
+    "total": 270.00
+  }
+]

@@ -1,0 +1,95 @@
+#wishlist-container{
+    background-color: #f9f9f9;
+    margin: 20px;
+    margin-top: 60px !important;
+}
+
+#card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* width: calc(33.33% - 10px); */
+    margin-bottom: 20px;
+    
+}
+
+.lista-deseos{
+    font-family: Arial, sans-serif;
+    text-align: Center; 
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.card-body {
+    padding: 3%; 
+}
+
+.card-title {
+    font-size: 20px; 
+    margin-bottom: 10px;
+    text-align: justify; 
+}
+
+.card-text {
+    margin-bottom: 15px; 
+    text-align: justify;
+}
+
+.card .d-grid {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;    
+}
+
+
+.btn { 
+    font-size: 14px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+.btn-danger {
+    background-color: rgb(21, 21, 212); 
+    color: #fff; 
+    border: none;
+    padding: 8px 52px; 
+}
+
+.card-text-price{
+    color: green;
+    font-size: 24px;
+    font-weight: bold;;
+}
+
+
+.btn-success {
+    background-color: #068b9f; 
+    color: #fff; 
+    border: none;
+    margin-top: 5px; 
+    padding: 8px 50px;
+}
+
+.btn-danger:hover,
+.btn-success:hover {
+    opacity: 0.8; 
+}
+
+
+
+
+
+
+
+
+
+
+
+

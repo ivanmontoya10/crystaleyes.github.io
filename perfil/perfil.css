@@ -1,0 +1,57 @@
+/* Estilos para la sección de administración de cuenta */
+.account-management {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.account-management h2 {
+    text-align: center;
+    color: #333;
+}
+
+.account-management form {
+    margin-bottom: 20px;
+}
+
+.label-text {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 16px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.wide-input {
+    padding: 35px 10px; /* Aumento del padding vertical para hacer el campo más alto */
+}
+
+.update-button {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #45a049;
+}
+
