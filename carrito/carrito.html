@@ -15,35 +15,35 @@
     <script src="https://www.paypal.com/sdk/js?client-id=AS9MYQsr7yMfZt115eZZAM1CcywSe9H-DgwP6OEOvVEECy_caxXOSDGf4QhafrAlxNSi4l0fBpNH4_R_&currency=MXN"></script>
 </head>
 <header>
-    <img class="logo" src="/landing_crystal_eyes/imgs/logo.png" alt="Logo">
+    <img class="logo" src="/crystaleyes.github.io/imgs/logo.png" alt="Logo">
     <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
     <nav class="nav" id="nav">
         <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
         <ul class="nav-list">
-            <li><a href="/landing_crystal_eyes/index.html">Inicio</a></li>
+            <li><a href="/crystaleyes.github.io/index.html">Inicio</a></li>
             <li class="dropdown">
                 <a href="#">Productos</a>
                 <ul class="dropdown-menu">
-                    <li><a href="/landing_crystal_eyes/productos/todos.html">Todos los productos</a></li>
-                    <li><a href="/landing_crystal_eyes/productos/oftalmico.html">Lentes oftálmicos</a></li>
-                    <li><a href="/landing_crystal_eyes/productos/lentescontacto.html">Lentes de contacto</a></li>
-                    <li><a href="/landing_crystal_eyes/productos/lentesol.html">Lentes de sol</a></li>
+                    <li><a href="/crystaleyes.github.io/productos/todos.html">Todos los productos</a></li>
+                    <li><a href="/crystaleyes.github.io/productos/oftalmico.html">Lentes oftálmicos</a></li>
+                    <li><a href="/crystaleyes.github.io/productos/lentescontacto.html">Lentes de contacto</a></li>
+                    <li><a href="/crystaleyes.github.io/productos/lentesol.html">Lentes de sol</a></li>
                 </ul>
             </li>
-            <li><a href="/landing_crystal_eyes/contacto/contacto.html">Contacto</a></li>
+            <li><a href="/crystaleyes.github.io/contacto/contacto.html">Contacto</a></li>
             <div class="search-form-container">
                 <form class="search-form" action="search.php" method="GET">
                     <input type="text" name="query" placeholder="Buscar...">
                     <button type="submit"><i class="bi bi-search"></i></button>
                 </form>
             </div>
-            <li><a href="/landing_crystal_eyes/perfil/perfil.html"><i class="bi bi-person-square" style="font-size: 24px"></i></a></li>
-            <li><a href="/landing_crystal_eyes/listadeseos/listadeseos.html"><i class="bi bi-box2-heart" style="font-size: 24px"></i></a></li>
-            <li><a href="/landing_crystal_eyes/carrito/carrito.html"><i class="bi bi-cart3" style="font-size: 24px"></i></a></li>
-            <li><a href="/landing_crystal_eyes/loginregister/login.html"><button class="icon-button login-button"><i
+            <li><a href="/crystaleyes.github.io/perfil/perfil.html"><i class="bi bi-person-square" style="font-size: 24px"></i></a></li>
+            <li><a href="/crystaleyes.github.io/listadeseos/listadeseos.html"><i class="bi bi-box2-heart" style="font-size: 24px"></i></a></li>
+            <li><a href="/crystaleyes.github.io/carrito/carrito.html"><i class="bi bi-cart3" style="font-size: 24px"></i></a></li>
+            <li><a href="/crystaleyes.github.io/loginregister/login.html"><button class="icon-button login-button"><i
                             class="bi bi-person-fill"></i><span class="login-text">Iniciar
                             sesión</span></button></a></li>
-            <li><a href="/landing_crystal_eyes/loginregister/register.html"><button class="icon-button register-button"><i
+            <li><a href="/crystaleyes.github.io/loginregister/register.html"><button class="icon-button register-button"><i
                             class="bi bi-person-plus-fill"></i><span
                             class="register-text">Registrarse</span></button></a></li>
         </ul>
@@ -71,7 +71,7 @@
         }
         
         function cargarProductosDesdeJSON() {
-            fetch('landing_crystal_eyes/jsons/carrito.json')
+            fetch('/crystaleyes.github.io/jsons/carrito.json')
                 .then(response => response.json())
                 .then(data => {
                     carrito = [...carrito, ...data];
@@ -252,7 +252,7 @@
         <i class='bx bxl-facebook'></i>
         <a class="links" href="https://www.facebook.com/profile.php?id=61558525312465&mibextid=kFxxJD">Facebook</a>
         <i class='bx bxl-instagram'></i>
-        <a class="links" href="https://www.instagram.com/landing_crystal_eyesoficial/">Instagram</a>
+        <a class="links" href="https://www.instagram.com/crystaleyesoficial/">Instagram</a>
     </div>
     <div class="acerca-de">
         <p>©2024 Crystal Eyes. Todos los derechos reservados.</p>
