@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Función para cargar todos los productos
 const cargarProductos = () => {
-    fetch('productos.json', {
+    fetch('crystaleyes.github.io/productos.json', {
         method: 'GET',
         credentials: 'include'
     })
