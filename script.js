@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Si hay una consulta de búsqueda, resaltar o mostrar primero el producto que coincide
         if (query) {
-            fetch('/crystaleyes.github.io/jsons/productos.json')
+            fetch('productos.json')
                 .then(response => response.json())
                 .then(data => {
                     const productosCoincidentes = data.filter(producto => {
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Función para cargar todos los productos
 const cargarProductos = () => {
-    fetch('/crystaleyes.github.io/jsons/productos.json', {
+    fetch('productos.json', {
         method: 'GET',
         credentials: 'include'
     })
