@@ -667,3 +667,40 @@ footer {
 .custom-carousel-next {
   right: 10px;
 }
+
+/*Filtros*/
+/* Estilo para el contenedor del select */
+.filtros {
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  /* Usamos flexbox */
+  justify-content: flex-end;
+  margin-right: 40px;
+  /* Alineamos el contenido al final (derecha) */
+
+}
+
+/* Estilo para el select */
+#ordenar {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  appearance: none;
+  /* Elimina los estilos por defecto del navegador */
+  background-color: white;
+  cursor: pointer;
+  /* Añadimos un padding-right para dejar espacio para la flecha */
+  padding-right: 30px;
+}
+
+/* Estilo para las opciones del select */
+#ordenar option {
+  padding: 10px;
+}
+
+/* Estilo para la opción seleccionada */
+#ordenar option:checked {
+  background-color: #f0f0f0;
+}
