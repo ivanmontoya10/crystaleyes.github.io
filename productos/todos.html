@@ -70,6 +70,15 @@
 
 <body>
     <h1 style="padding: 30px;">Todos los productos</h1>
+    <div class="filtros">
+        <select id="ordenar" onchange="ordenarProductos">
+            <option value="" disabled selected>Ordenar por</option>
+            <option value="precio_asc">Precio - Menor a Mayor</option>
+            <option value="precio_desc">Precio - Mayor a Menor</option>
+            <option value="nombre_asc">Nombre - A a Z</option>
+            <option value="nombre_desc">Nombre - Z a A</option>
+        </select>
+    </div>
     <div id="productos" class="productos"></div>
     <script src="todos.js"></script>
 </body>
