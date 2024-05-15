@@ -1,0 +1,110 @@
+.productos-des {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+}
+
+.producto-card-des {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    margin-top: auto;
+    height: auto;
+
+}
+
+.productos-des h2 {
+    margin-bottom: 1000px;
+    color:black;
+}
+
+.productos-des img {
+    width: 100%;
+    height: auto;
+}
+
+.productos-des h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.productos-des p {
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.productos-des button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.precio-des {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.producto-des button:hover {
+    background-color: #0056b3;
+}
+
+.boton-containerss {
+    margin-top: auto;
+    background-color: #0056b3;
+}
+
+.btn-ver-todo{
+    margin-top: 20px; /* Espacio en la parte superior del contenedor */
+    margin-bottom: 20px; /* Espacio en la parte inferior del contenedor */
+    text-align: center;
+}
+
+.vertodo a {
+    background-color: black;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .producto-card-des {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: calc(100% - 10px);
+      }
+    
+      .producto-card-des p:last-child {
+        margin-bottom: 0;
+      }
+
+      .backshop .back-text{
+        top:210px;
+        text-align: center;
+        font-size: 17px;
+      }
+
+      .backshop .back-link{
+        top:280px;
+        font-size: 14px;
+      }
+      .fondoshop{
+        background-color: aqua;
+      }
+}

@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="destacados.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     
@@ -34,24 +35,8 @@
     </script>
 
 </head>
-<!-- <header>
-    <img class="logo" src="logo.png" alt="Logo" alt="Logo Crystal Eyes" title="Logo Crystal Eyes">
-    <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
-    <nav class="nav" id="nav">
-        <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
-        <ul class="nav-list">
-            <li><a href="#Inicio" title="Inicio">Inicio</a></li>
-            <li><a href="#TodosProductos" title="Todos los productos">Todos los productos</a></li>
-            <li><a href="#Oftálmico" title="Categoría Oftálmico">Lentes oftálmico</a></li>
-            <li><a href="#LentesContacto" title="Categoría Lentes de contacto">Lentes de contacto</a></li>
-            <li><a href="#Sol" title="Categoría Lentes de sol">Lentes de sol</a></li>
-            <li><a href="#Contacto" title="Contacto con Crystal Eyes">Contacto</a></li>
-            <li><a href="#Perfil" title="Perfil de usuario">Perfil</a></li>
-            <li><a href="#Carrito" title="Carrito de compras">Carrito</a></li>
-        </ul>
-    </nav>
-</header> -->
-
+</header>
+<div class="msj-act">Bienvenido a nuestra tienda</div>
 <header>
     <img class="logo" src="Imgs/logo.png" alt="Logo">
     <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
@@ -91,7 +76,60 @@
 </header>
 
 <body>
-    <!-- <div id="productos" class="productos"></div> -->
+    <div class="fondoshop">
+        <div class="backshop">
+            <img src="imgs/fondoshop1.jpg" preload="auto">
+            <p class="back-text">Explora nuestros últimos productos</p>
+            <a class="back-link" href="/crystaleyes/productos/todos.html">Comprar todo</a>
+        </div>
+    </div>
+
+    <div class="dest">
+        <h3>Productos destacados</h3>
+        <div id="productos-des" class="productos-des">
+            <script src="destacados.js"></script>
+        </div>
+    </div>
+
+    <div class="btn-ver-todo">
+        <div class="vertodo">
+            <a href="/crystaleyes/productos/todos.html">Ver todo</a>
+            <div style="margin-bottom: 30px;"></div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="esquina-inferior" onclick="toggleChatPanel(event)">
+        💬Chat
+        <div class="chat-panel" style="display: none;">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Correo electrónico">
+            <input type="text" placeholder="Mensaje">
+            <center><button class="btn-chat">Enviar</button></center>
+        </div>
+    </div>
+
+    <script>
+        function toggleChatPanel(event) {
+            const chatPanel = event.currentTarget.querySelector('.chat-panel');
+            chatPanel.style.display = chatPanel.style.display === 'none' ? 'block' : 'none';
+            event.stopPropagation(); // Evita que el clic se propague a elementos superiores
+        }
+
+        // Cierra el panel si se hace clic fuera de él
+        document.addEventListener('click', function (event) {
+            const chatPanel = document.querySelector('.chat-panel');
+            if (chatPanel && !chatPanel.contains(event.target)) {
+                chatPanel.style.display = 'none';
+            }
+        });
+
+        // Detiene la propagación del clic en los inputs del panel
+        document.querySelector('.chat-panel').addEventListener('click', function (event) {
+            event.stopPropagation();
+        });
+    </script>
+
     <script src="script.js"></script>
 
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"

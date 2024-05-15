@@ -486,9 +486,9 @@ footer {
     color: #ececec;
   }
 
-  header {
-    margin-bottom: 60px; /* Ajusta el espacio para dejar espacio para el menú */
-  }
+  /* header {
+    margin-bottom: 60px    #Ajusta el espacio para dejar espacio para el menú;
+  } */
 
   .nav {
     z-index: 1000; 
@@ -703,4 +703,141 @@ footer {
 /* Estilo para la opción seleccionada */
 #ordenar option:checked {
   background-color: #f0f0f0;
+}
+
+/* INDEX */
+.msj-act {
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid gainsboro;
+}
+
+.fondoshop {
+  width: 100%;
+}
+
+.fondoshop img {
+  width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.backshop .back-text {
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 40px;
+}
+
+.backshop .back-link {
+  position: absolute;
+  top: 590px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  /* border-radius: 5px; */
+  border: 1px solid white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.data-info {
+  width: 100%;
+}
+
+.part {
+  width: 100%;
+  display: flex;
+}
+
+.data-l {
+  width: 50%;
+  background-color: #0056b3;
+  padding: 60px;
+}
+
+.data-img-r {
+  background-color: #218838;
+  width: 50%;
+}
+
+.data-img-r img {
+  width: 100%;
+}
+
+.data-r {
+  width: 50%;
+  background-color: peru;
+  padding: 60px;
+}
+
+.data-img-l {
+  background-color: yellow;
+  width: 50%;
+}
+
+.data-img-l img {
+  width: 100%;
+}
+
+/* PRODUCTOS DESTACADOS */
+.dest {
+  width: 100%;
+  padding: 30px;
+}
+
+.contenedor-chat {
+  position: relative;
+  height: 200px;
+  /* Ajusta la altura según sea necesario */
+  overflow: auto;
+  /* Asegura que el contenido pueda desplazarse si es necesario */
+  border: 1px solid #ccc;
+}
+
+.esquina-inferior {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* background-color: rgba(0, 0, 0, 0.8); Casi transparente*/
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer; /* Cambia el cursor al hacer clic */
+}
+
+.chat-panel {
+  margin-top: 10px; /* Espacio entre el chat y el panel */
+  font-size: 18px;
+}
+
+.chat-panel input {
+  display: block;
+  margin-bottom: 10px;
+  /* Estilos para los inputs en el panel */
+}
+
+.btn-chat{
+  background-color: white;
+  padding: 5px 5px;
+  border-radius: 9px;
+  color: black;
+  border: 1px black solid;
+}
+
+.btn-chat:hover{
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+  border: 1px white solid;
 }
