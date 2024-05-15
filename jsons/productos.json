@@ -13,7 +13,7 @@
     },
     {
         "id": 2,
-        "nombre": "Lente Oftálmico Martha Debayle JOAN Negro",
+        "nombre": "Lente Oftálmico Martha Debayle JOAN",
         "precio": 2777,
         "descripcion_corta": "",
         "descripcion_larga": "Los lentes oftálmicos JOAN son inspirados en Joan Crawford tienen un marco completo en forma cuadrada oversize fabricado En acetato negro. Las varillas están hechas de metal en color dorado con diseño circular garigoleado. Sus terminales son de rayas en blanco y negro. Recomendado para rostros ovalados y forma de diamante. ",
@@ -25,7 +25,7 @@
     },
     {
         "id": 3,
-        "nombre": "Lente Oftálmico Ray Ban RB7047O Negro",
+        "nombre": "Lente Oftálmico Ray Ban RB7047O",
         "precio": 3730,
         "descripcion_corta": "",
         "descripcion_larga": "Los Lentes Oftálmicos Ray-Ban RB7047O cuentan con un diseño rectangular que les da un estilo clásico para que expreses tu personalidad. Fabricado en acetato, este armazón es muy cómodo, resistente y duradero. El armazón Ray-Ban oftálmico viene en color negro mate que le da un toque de modernidad a lo clásico.",
@@ -49,7 +49,7 @@
       },
       {
         "id": 5,
-        "nombre": "Lentes de Contacto Lunare cosmético Neutro",
+        "nombre": "Lentes de Contacto Lunare",
         "precio": 500,
         "descripcion_corta": "",
         "descripcion_larga": "Los lentes de contacto Lunare están fabricados con la tecnología Tri-Kolor, que gracias a sus tres capas de color ofrece un aspecto más natural a tus ojos y la mayor comodidad.",
@@ -61,7 +61,7 @@
       },
       {
         "id": 6,
-        "nombre": "Lentes de Contacto MyDay para Astigmatismo",
+        "nombre": "Lentes de Contacto MyDay",
         "precio": 1148,
         "descripcion_corta": "",
         "descripcion_larga": "Los lentes de contacto MyDay para astigmatismo ofrecen una solución cómoda y efectiva para corregir la visión en personas con astigmatismo. Estos lentes están diseñados para proporcionar una visión clara y nítida, adaptándose a la curvatura específica del ojo y corrigiendo las irregularidades que causan el astigmatismo.",
@@ -85,7 +85,7 @@
       },
       {
         "id": 8,
-        "nombre": "Lentes de Sol Martha Debayle Janis Negro",
+        "nombre": "Lentes de Sol Martha Debayle",
         "precio": 2408,
         "descripcion_corta": "",
         "descripcion_larga": "Los Lentes Solares Martha Debayle Janis cuentan con un diseño redondo marco completo. Está fabricado en acero color negro. Las lentes son de color gris, transmiten la luz de manera uniforme y mantienen los colores naturales, son apropiados para manejar por la ciudad o carretera. Incluye protección contra los rayos UV. Recomendado para rostros Cuadrados y forma de diamante.",
@@ -97,7 +97,7 @@
       },
       {
         "id": 9,
-        "nombre": "Lentes de Sol Versace VE4307 Negro",
+        "nombre": "Lentes de Sol Versace VE4307",
         "precio": 4240,
         "descripcion_corta": "",
         "descripcion_larga": "Los Lentes Solares Versace VE4307 cuentan con un diseño cuadrado completo para hombres de rostro redondo, ovalado y en forma de corazón que te da un estilo clásico para que expreses tu personalidad. Fabricado en acetato, este armazón es muy resistente y duradero.",
