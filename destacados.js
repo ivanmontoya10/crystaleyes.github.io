@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const productoDiv = document.createElement('div');
                 productoDiv.classList.add('producto-card-des');
                 productoDiv.innerHTML = `
-                    <img src="/crystaleyes/imgs/${producto.img1}">
+                    <img src="/crystaleyes.github.io/Imgs/${producto.img1}">
                     <h2>${producto.nombre}</h2>
                     <p class="precio-des">$${producto.precio} MXN</p>
                     
